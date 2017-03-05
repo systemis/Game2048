@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="Witdh_Slide">120dp</dimen>
+    <dimen name="Height_Slide">130dp</dimen>
+
+    <dimen name="Size_Slide">100dp</dimen>
+    <dimen name="TextSize_Message_DialogGameOver">30dp</dimen>
+
+    <dimen name="MinWidth_Button_DGOV">250dp</dimen>
+
+
+    <dimen name="TextSize_ViewShow_DGOV">30dp</dimen>
+    <dimen name="TextSize_Button_ViewShow_DGOV">25dp</dimen>
+
+    <dimen name="Height_Button_DGOV">50dp</dimen>
+
+    <dimen name="Width_ShowScore">130dp</dimen>
+    <dimen name="TextSizeScore">25dp</dimen>
+
+    <!--<dimen name="Witdh_Button_OverGame">wrap_content</dimen>-->
+    <!--<dimen name="Height_Button_OverGame">wrap_content</dimen>-->
+
+</resources>

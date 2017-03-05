@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_title_toolbar_game">#000</color>
+    <color name="Background_Play_Board_Activity">#000</color>
+    <color name="Background_BoardPlay">#fff</color>
+    <color name="Background_Slides_Play">#d1cdc8</color>
+
+    <color name="Background_Slides_Play_Two">#e1bf96</color>
+    <color name="Background_Slides_Play_Four">#ffcc15</color>
+    <color name="Background_Slides_Play_Eight">#d77427</color>
+    <color name="Background_Slides_Play_SixTeen">#f59563</color>
+    <color name="Background_Slides_Play_FityThree">#f67c5f</color>
+    <color name="Background_Slides_Play_SixtyFour">#ed3f17</color>
+    <color name="Background_Slides_Play_128">#98c438</color>
+    <color name="Background_Slides_Play_256">#86a620</color>
+    <color name="Background_Slides_Play_512">#dc788b36</color>
+    <color name="Background_Slides_Play_1024">#dc6af7e4</color>
+    <color name="Background_Slides_Play_2048">#dc2eac86</color>
+
+    <color name="Background_Toolbar_Game">#BDADA0</color>
+    <color name="Color_Text_Score">#fff</color>
+
+    <!--
+    <color name="Background_BoardPlay">#AD9D8F</color>
+    <color name="Background_Play_Board_Activity">#C2B4A5</color>
+    <color name="Background_Slides_Play_Two">#E9DED1</color>
+    <color name="Background_Slides_Play_Four">#E8D9BC</color>
+    <color name="Background_Slides_Play_Eight">#EDA166</color>
+    <color name="Background_Slides_Play_SixTeen">#F59563</color>
+    <color name="Background_Slides_Play_FityThree">#F67C5F</color>
+    <color name="Background_Slides_Play_SixtyFour">#F65E3B</color>
+    <color name="Background_Slides_Play_128">#EDD16E</color>
+    <color name="Background_Slides_Play_256">#E9CC34</color>
+    <color name="Background_Slides_Play_512">#dcffdb1e</color>
+    <color name="Background_Toolbar_Game">#BDADA0</color>
+    <color name="Color_Text_Score">#fff</color>
+
+    -->
+
+</resources>

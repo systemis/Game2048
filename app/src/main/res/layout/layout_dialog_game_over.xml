@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Happy"
+                android:textSize="@dimen/TextSize_Message_DialogGameOver"
+                android:textColor="@color/Color_Text_Score"
+                android:gravity="center"
+                android:id="@+id/DGOV_Show_Message_Dialog"
+                android:fontFamily="sans-serif-light"
+                />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/DGOV_ShowImage"
+            android:layout_gravity="center"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_background_view_show_score"
+        android:id="@+id/DGOV_ViewGroup_Show_BestScore"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Score"
+            android:textColor="#000"
+            android:textSize="@dimen/TextSize_ViewShow_DGOV"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:minWidth="@dimen/MinWidth_Button_DGOV"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20399"
+            android:textColor="#000"
+            android:textSize="@dimen/TextSize_ViewShow_DGOV"
+            android:layout_gravity="center"
+            android:id="@+id/DGOV_Show_BestScore"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:minWidth="@dimen/MinWidth_Button_DGOV"
+            android:fontFamily="sans-serif-light"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_background_view_show_score"
+        android:id="@+id/DGOV_ViewGroup_Show_PlayScore"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Play"
+            android:textColor="#000"
+            android:textSize="@dimen/TextSize_ViewShow_DGOV"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:minWidth="@dimen/MinWidth_Button_DGOV"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#000"
+            android:textSize="@dimen/TextSize_ViewShow_DGOV"
+            android:id="@+id/DGOV_Show_ScorePlay"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:minWidth="@dimen/MinWidth_Button_DGOV"
+            android:layout_marginBottom="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/Height_Button_DGOV"
+            android:minWidth="@dimen/MinWidth_Button_DGOV"
+
+            android:text="Replay Game"
+            android:layout_gravity="center"
+            android:onClick="ReplayGame"
+            android:id="@+id/DGOV_ReplayGame"
+            android:background="@drawable/custom_background_view_show_score"
+            android:textSize="@dimen/TextSize_Button_ViewShow_DGOV"
+            android:fontFamily="sans-serif-light"
+            />
+
+
+        <Button
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/Height_Button_DGOV"
+            android:minWidth="@dimen/MinWidth_Button_DGOV"
+
+            android:layout_gravity="center"
+            android:background="@drawable/custom_background_view_show_score"
+            android:textSize="@dimen/TextSize_Button_ViewShow_DGOV"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="10dp"
+
+            android:text="Exit Game"
+            android:onClick="ExitGame"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

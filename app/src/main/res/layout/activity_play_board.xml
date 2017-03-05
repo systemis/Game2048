@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nickpham.game2048.PlayBoardActivity"
+    android:background="@mipmap/main_backround"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/toolbar_game"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_board"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:paddingTop="40dp"
+        android:background="@color/Background_BoardPlay">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/Comprise_Play_Board"
+            android:layout_centerInParent="true"
+            >
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_margin="2dp"
+            android:id="@+id/Get_Event_Player">
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

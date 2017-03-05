@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_alignParentRight="true"
+
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@drawable/custom_background_view_show_score"
+        android:id="@+id/ViewGroup_Show_Score">
+
+
+        <TextView
+            android:minWidth="@dimen/Width_ShowScore"
+            android:textSize="@dimen/TextSize_Button_ViewShow_DGOV"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:gravity="center_horizontal"
+
+            android:textColor="@color/background_title_toolbar_game"
+
+            android:fontFamily="sans-serif-light"
+
+            android:id="@+id/textView"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textSize="@dimen/TextSizeScore"
+            android:textColor="@color/Color_Text_Score"
+            android:layout_gravity="center"
+            android:id="@+id/Show_Play_Score"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+
+        android:orientation="vertical"
+
+        android:background="@drawable/custom_background_view_show_score"
+
+        android:layout_toRightOf="@+id/ViewGroup_Show_Score"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/ViewGroup_Show_Best_Score"
+        >
+
+
+        <TextView
+            android:minWidth="@dimen/Width_ShowScore"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/TextSize_Button_ViewShow_DGOV"
+
+            android:fontFamily="sans-serif-light"
+
+            android:text="Best Score"
+            android:gravity="center_horizontal"
+            android:textColor="@color/background_title_toolbar_game"
+            android:id="@+id/textView2" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2560"
+            android:textSize="@dimen/TextSizeScore"
+            android:textColor="@color/Color_Text_Score"
+            android:layout_gravity="center"
+            android:id="@+id/Show_Best_Score"
+            />
+
+    </LinearLayout>
+
+
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+
+        android:orientation="vertical"
+
+        android:background="@drawable/custom_background_view_show_score"
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_toRightOf="@+id/ViewGroup_Show_Best_Score"
+
+        android:text="Guide"
+
+
+        android:fontFamily="sans-serif-light"
+
+        android:onClick="HowToPlayAction"
+
+        />
+
+
+
+
+</RelativeLayout>
